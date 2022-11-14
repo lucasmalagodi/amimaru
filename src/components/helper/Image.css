@@ -1,0 +1,9 @@
+.wrapper{
+    width: 100%;
+}
+.wrapper .skeleton {
+    margin: 5px;
+}
+.wrapper .skeleton img {
+    width: 100%;
+}

@@ -1,0 +1,102 @@
+body {
+    background-color: #E8E8E8;
+}
+
+.home {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logo {
+    width: 50%;
+}
+
+.logo svg{
+    width: 100%;
+    height: 100%;
+}
+
+.texto-home p {
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #D09493;
+}
+
+/* .logo svg .anima-m { opacity: 0; } */
+
+/* @keyframes fade-in {
+  100% { opacity: 1; }
+} */
+
+.out {
+    animation: flipOutX;
+    animation-duration: 1s;
+}
+
+.logo svg, .texto-home {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+.texto-home{
+    animation: slideInUp;
+    animation-duration: 4s; /* don't forget to set a duration! */   
+}
+
+.logo svg .anima-global{
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+.logo svg .anima-botao {
+    animation: slideInDown;
+    animation-duration: 3s; /* don't forget to set a duration! */
+}
+
+.logo svg .anima-agulha {
+    animation: zoomInUp;
+    animation-duration: 4s; /* don't forget to set a duration! */
+}
+
+.logo svg .anima-a {
+    animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1000ms; /* don't forget to set a duration! */
+}
+
+.logo svg .anima-m {
+    animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1300ms; /* don't forget to set a duration! */
+}
+
+.logo svg .anima-i {
+    animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1400ms; /* don't forget to set a duration! */
+}
+
+.logo svg .anima-m2 {
+    /* animation-name: grow; */
+    animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1500ms; /* don't forget to set a duration! */
+}
+
+.logo svg .anima-a2 {
+    animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1600ms; /* don't forget to set a duration! */
+
+}
+
+.logo svg .anima-r {
+    animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1700ms; /* don't forget to set a duration! */
+}
+
+.logo svg .anima-u {
+    animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1800ms; /* don't forget to set a duration! */
+}

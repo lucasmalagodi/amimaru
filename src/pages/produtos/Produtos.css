@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .texto-produtos{
+    width: 40%;
+}
+
+.container .imagens-produtos{
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
